@@ -1,0 +1,17 @@
+.container {
+    width: 1210px;
+    height: 700px;
+    background-color: aquamarine;
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
