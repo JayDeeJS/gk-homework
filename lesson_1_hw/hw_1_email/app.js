@@ -7,12 +7,18 @@
 
 //Код решения
 const emailInput = document.querySelector("#email");
-const passwordInput = document.querySelector("#password");
+const passwordInput = document.querySelector("#passwordId");
 const loginButton = document.querySelector(".login");
 const displayMessage = document.querySelector(".display");
 
+const showPassword = document.querySelector("#checkbox");
+
 const emailRegExp = /^[\w][\@][a-z]|.com|.ru|.info$/;
 const passwordRegExp = /^\w{4,20}$/;
+
+showPassword.onclick = () => {
+    passwordInput.type === "password" ? passwordInput.type = "text" : passwordInput.type = "password";
+};
 
 loginButton.addEventListener('click', () => {
     if (emailRegExp.test(emailInput.value) && passwordRegExp.test(passwordInput.value)) {

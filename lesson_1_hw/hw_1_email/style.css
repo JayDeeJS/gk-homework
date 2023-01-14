@@ -17,6 +17,11 @@
     flex-direction: column;
     justify-content: space-around;
 }
+.authFrame__password-checkbox {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
 
 .controls {
     width: 90%;
