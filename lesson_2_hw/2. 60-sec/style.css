@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    width: 100vw;
+    height: 80px;
+}
+
+.timer__count {
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    outline: 1px solid limegreen;
+    background-color: rgb(69, 37, 158);
+    color: rgb(15, 254, 2);
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+}
