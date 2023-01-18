@@ -9,18 +9,22 @@ const handleTriangleMove = () => {
         posY += 2;
         triangle.style.left = `${posX}px`;
         triangle.style.top = `${posY}px`;
-        setTimeout(handleTriangleMove, 10);
-    } else if (posX >= 0 && posY <= 220) {
+        handleTimer();
+    } else if (posX >= 0 && posY <= 210) {
         posX -= 10;
         posY += 2;
         triangle.style.left = `${posX}px`;
         triangle.style.top = `${posY}px`;
-        setTimeout(handleTriangleMove, 10);
+        handleTimer();
     } else if (posY >= 0) {
         posY -= 200;
-        triangle.style.bottom = `${posY}px`;
-        setTimeout(handleTriangleMove, 10);
+        triangle.style.top = `${posY}px`;
+        handleTimer();
     }
+}
+
+const handleTimer = () => {
+    setTimeout(handleTriangleMove, 10);
 }
 
 handleTriangleMove();
