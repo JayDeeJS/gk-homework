@@ -13,20 +13,20 @@ let posX = 0;
 let posY = 0;
 
 const handleTriangleMove = () => {
-    if (posX <= 500 && posY <= 100) {
+    if (posX <= 510 && posY <= 90) {
         posX += 10;
         posY += 2;
         triangle.style.left = `${posX}px`;
         triangle.style.top = `${posY}px`;
         handleTimer();
-    } else if (posX >= 0 && posY <= 210) {
+    } else if (posX >= 0 && posY <= 200) {
         posX -= 10;
         posY += 2;
         triangle.style.left = `${posX}px`;
         triangle.style.top = `${posY}px`;
         handleTimer();
-    } else if (posY >= 0) {
-        posY -= 200;
+    } else if (posY <= 200 && posY >= 0) {
+        posY = -10;
         triangle.style.top = `${posY}px`;
         handleTimer();
     }
