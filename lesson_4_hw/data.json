@@ -1,0 +1,27 @@
+[
+    {
+        "name": "ZOTAC Gaming GeForce RTX™ 3080 Ti",
+        "price": "$1,119.02",
+        "url": "https://m.media-amazon.com/images/I/81TzR9+1IXL._AC_SL1500_.jpg"
+    },
+    {
+        "name": "MSI B550M PRO-VDH WiFi ProSeries Motherboard",
+        "price": "$140.96",
+        "url": "https://m.media-amazon.com/images/I/91beeVTo4pL._AC_SL1500_.jpg"
+    },
+    {
+        "name": "AMD Ryzen™ 7 5700X 8-Core, 16-Thread Unlocked",
+        "price": "$194.00",
+        "url": "https://m.media-amazon.com/images/I/51zF9r6Q8ZL._AC_SL1384_.jpg"
+    },
+    {
+        "name": "EVGA 700 BR, 80+ Bronze 700W",
+        "price": "$69.99",
+        "url": "https://m.media-amazon.com/images/I/710YDe56U9L._AC_SL1200_.jpg"
+    },
+    {
+        "name": "Thermaltake S100 Micro-ATX mini-Tower",
+        "price": "$69.99",
+        "url": "https://m.media-amazon.com/images/I/81lzdcX-EhL._AC_SL1500_.jpg"
+    }
+]
